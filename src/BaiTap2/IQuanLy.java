@@ -6,6 +6,7 @@
 package BaiTap2;
 
 import BaiTap1.NhanVien;
+import java.util.ArrayList;
 
 /**
  *
@@ -14,6 +15,6 @@ import BaiTap1.NhanVien;
 public interface IQuanLy 
 {
     public void them(NhanVien nv);
-    public void inDS();
+    public void inDS(ArrayList<NhanVien> dsnv);
     
 }
